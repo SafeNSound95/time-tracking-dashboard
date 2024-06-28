@@ -1,0 +1,13 @@
+Mobile first:
+grid 1 column, that has 7 cards(divs): 1 for profile card, and 6 for each activity.
+the 6 div cards are the same, let's not think about the profile card for now:
+each div card has two items that are flexed (Work  ...) and another two items that are flexed with flex direction being row, and having space between.
+so two flex containers inside each card.
+-I'm also thinking each card can be a two column grid, with the first column justified to start, and the second column justified to end(excited to try this approach instead) so the card contaienr itself is a 2 x 2 grid
+
+profile card: 2 x 3 grid? with the first row spanning across the 3 columns, 
+the first row is also a flex container.
+
+-Desktop:
+for each activity card, the grid that once was 2 x 2 becomes 3 x 2, elementary.
+the profile card grid that was 2 x 3 becomes at least 4 rows with at least 2 columns(4x2)

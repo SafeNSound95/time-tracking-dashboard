@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Time tracking dashboard</title>
+  </head>
+  <body>
+    <section class="dashboard">
+      <div class="profile-card">
+        <div class="user-info">
+          <img
+            class="user-image"
+            src="images/image-jeremy.png"
+            alt="profile picture of the user"
+          />
+          <div class="user-info-text">
+            <p class="report">Report for</p>
+            <p class="username">Jeremy Robson</p>
+          </div>
+        </div>
+        <div class="profile-activity-time">
+          <span>Daily</span>
+          <span>Weekly</span>
+          <span>Monthly</span>
+        </div>
+      </div>
+
+      <div class="activity-card activity-card-work">
+        <div class="activity-card-data">
+          <span class="category">Work</span>
+          <img src="images/icon-ellipsis.svg" alt="ellipsis" class="ellipsis" />
+          <span class="time">32hrs</span>
+          <p class="previous-text" data-index="0">Last Week - 36hrs</p>
+        </div>
+      </div>
+
+      <div class="activity-card activity-card-play">
+        <div class="activity-card-data">
+          <span class="category">Play</span>
+          <img src="images/icon-ellipsis.svg" alt="ellipsis" class="ellipsis" />
+          <span class="time">10hrs</span>
+          <p class="previous-text">Last Week - 36hrs</p>
+        </div>
+      </div>
+
+      <div class="activity-card activity-card-study">
+        <div class="activity-card-data">
+          <span class="category">Study</span>
+          <img src="images/icon-ellipsis.svg" alt="ellipsis" class="ellipsis" />
+          <span class="time">4hrs</span>
+          <p class="previous-text">Last Week - 7rs</p>
+        </div>
+      </div>
+
+      <div class="activity-card activity-card-exercise">
+        <div class="activity-card-data">
+          <span class="category">Exercise</span>
+          <img src="images/icon-ellipsis.svg" alt="ellipsis" class="ellipsis" />
+          <span class="time">4hrs</span>
+          <p class="previous-text">Last Week - 5hrs</p>
+        </div>
+      </div>
+
+      <div class="activity-card activity-card-social">
+        <div class="activity-card-data">
+          <span class="category">Social</span>
+          <img src="images/icon-ellipsis.svg" alt="ellipsis" class="ellipsis" />
+          <span class="time">5hrs</span>
+          <p class="previous-text">Last Week - 10hrs</p>
+        </div>
+      </div>
+
+      <div class="activity-card activity-card-selfcare">
+        <div class="activity-card-data">
+          <span class="category">Self Care</span>
+          <img src="images/icon-ellipsis.svg" alt="ellipsis" class="ellipsis" />
+          <span class="time">2hrs</span>
+          <p class="previous-text">Last Week - 2hrs</p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
