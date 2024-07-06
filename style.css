@@ -208,28 +208,11 @@ body {
 .dropdown-menu {
   display: none;
   opacity: 0;
-  animation: fadeInOut 0.3s ease-in-out;
+  border: 3px solid #fff;
 }
 
 .dropdown-menu span:hover {
   cursor: pointer;
-}
-
-@keyframes fadeInOut {
-  0% {
-    opacity: 0;
-    display: none;
-  }
-
-  50% {
-    opacity: 0.5;
-    display: flex;
-  }
-
-  100% {
-    opacity: 1;
-    display: flex;
-  }
 }
 
 .dropdown-menu--active {
@@ -274,11 +257,28 @@ body {
   }
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 850px) {
   html {
-    font-size: 50%;
+    font-size: 62.5%;
   }
 
+  .dashboard {
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+  }
+
+  .profile-card {
+    grid-column: span 2;
+    min-width: 40rem;
+    justify-self: center;
+  }
+
+  .activity-card {
+    min-width: 35rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
   .dashboard {
     grid-template-columns: repeat(4, 1fr);
     column-gap: 3rem;
@@ -286,7 +286,9 @@ body {
   }
 
   .profile-card {
+    grid-column: 1/2;
     grid-row: span 2;
+    min-width: 25rem;
     margin-bottom: 0;
   }
 
@@ -332,9 +334,11 @@ body {
 
   .user-image {
     margin-bottom: 0.5rem;
+    width: 7.8rem;
   }
 
   .activity-card {
     background-size: 36%;
+    min-width: 25rem;
   }
 }

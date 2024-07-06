@@ -35,7 +35,8 @@ document.addEventListener("keydown", function (e) {
 });
 
 document.addEventListener("click", function (e) {
-  if (e.target === document.querySelector("body")) removeMenu();
+  // if (e.target === document.querySelector("body")) removeMenu();
+  if (![...allEllipsis].includes(e.target)) removeMenu();
 });
 
 const extractData = function (data, e) {
