@@ -32,8 +32,8 @@ This is a time tracking dashboard component that can be easily changed to fit si
 
 ### Links
 
-- Solution URL: [](https://your-solution-url.com)
-- Live Site URL: [](https://safensound95.github.io/time-tracking-dashboard/)
+- [Solution URL](https://www.frontendmentor.io/solutions/time-tracking-dashboard-zzUsrItyZP)
+- [Live site](https://safensound95.github.io/time-tracking-dashboard/)
 
 ## My process
 
