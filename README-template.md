@@ -17,9 +17,13 @@ This is a time tracking dashboard component that can be easily changed to fit si
 ### Features
 
 - Beautiful looking UI with nice transitions that are easy on the eyes.
+
 - Fully responsive for all screen sizes.
+
 - Usage of API to get the JSON data of the user and show it on the user interface seamlessly.
+
 - The user has the ability to see the time he spent across the different categories.
+
 - The user has the ability to see the time spent across different time periods with instant results at the press of a button
 
 ### Screenshot
@@ -29,7 +33,7 @@ This is a time tracking dashboard component that can be easily changed to fit si
 ### Links
 
 - Solution URL: [](https://your-solution-url.com)
-- Live Site URL: [](https://your-live-site-url.com)
+- Live Site URL: [](https://safensound95.github.io/time-tracking-dashboard/)
 
 ## My process
 
