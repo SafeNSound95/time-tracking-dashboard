@@ -28,7 +28,7 @@ This is a time tracking dashboard component that can be easily changed to fit si
 
 ### Screenshot
 
-![](time-tracking-dashboard.jpg)
+![](time-tracking-dashboard.png)
 
 ### Links
 
